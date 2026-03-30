@@ -1,7 +1,12 @@
-import { useState } from "react";
+import { Route } from "react-router";
+import Navbar from "./components/layout/navbar";
 
 function App() {
-  return <p>hello cs571!</p>;
+  return (
+    <div>
+      <Navbar></Navbar>
+    </div>
+  );
 }
 
 export default App;
