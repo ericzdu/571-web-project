@@ -24,7 +24,6 @@ export default function Navbar() {
           <Dropdown label="about">
             <DropdownItem to="/cv">cv</DropdownItem>
             <DropdownItem to="/contact">contact me</DropdownItem>
-            <DropdownItem to="/yeah">yeah</DropdownItem>
           </Dropdown>
         </li>
         <li>
